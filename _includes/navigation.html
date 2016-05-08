@@ -1,0 +1,17 @@
+<div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}">Home</a></li>
+        <!-- <li class="nav-about {% if page.current == 'about' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}about">About</a></li> -->
+        <li class="nav-author {% if page.current == 'author' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}author/prerit2010">About</a></li>
+         <li class="nav-author {% if page.current == 'author' %} nav-current{% endif %}" role="presentation"><a href="http://github.com/prerit2010" target="_blank">Github</a></li>
+        <h5 style="color : white; margin-left : 10px">Tags</h5>
+        <li class="nav-fables {% if page.url contains 'fables' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/general">General</a></li>
+        <li class="nav-fiction {% if page.url contains 'fiction' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/GSoC2016">GSoC2016</a></li>
+        
+    </ul>
+</div>
+<span class="nav-cover"></span>
