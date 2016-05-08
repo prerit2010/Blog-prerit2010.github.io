@@ -26,10 +26,18 @@ except:
 	print "No commit message written"
 else:
 	import git
-	repo = git.Repo(destination)
+	source_repo = source.replace(' ', '')[:-6]
+	repo = git.Repo(source_repo)
 	print repo.git.add(u=True)
 	print repo.git.commit( m=commit_message)
 	print "Pushing......"
+	print repo.git.push()
+	print "\nPushed to Blog-prerit2010.github.io\n"
+
+	repo = git.Repo(destination)
+	print repo.git.add(u=True)
+	print repo.git.commit( m=commit_message)
+	print "\nPushing......"
 	print repo.git.push()
 	print "\nPushed to prerit2010.github.io\n"
 
