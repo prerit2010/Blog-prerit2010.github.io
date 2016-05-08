@@ -1344,7 +1344,7 @@ body:not(.post-template) .post-title {
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .read-next-story {
