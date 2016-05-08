@@ -2,7 +2,7 @@ import os, shutil, sys
 from distutils.dir_util import copy_tree
 
 destination = '/home/prerit2010/projects/prerit2010.github.io'
-source = '/home/prerit2010/projects/my blog/_site'
+source = '/home/prerit2010/projects/Blog-prerit2010.github.io/_site'
 ignore = ['README.md','.git', '.gitignore']
 
 for the_file in os.listdir(destination):
