@@ -2,7 +2,7 @@
 layout: post
 cover: 'assets/images/gsoc2016-banner.png'
 title: 'GSoC 2016 Project - Weekly update'
-date:   2016-06-23 10:18:00
+date:   2016-06-28 10:18:00
 tags: GSoC2016
 subclass: 'post tag-GSoC2016'
 categories: 'prerit2010'
